@@ -20,3 +20,10 @@ The Python script for data cleaning can be found in the `data_cleaning.py` file.
 
 The Power BI visualization provides insights into credit card eligibility based on past data. It includes various charts and graphs to help the marketing department identify customer groups to focus on in the coming months.
 
+## Project Structure
+- README.md: The readme file
+- data_cleaning.py : python code
+- dataset : raw data downloaded from: https://www.kaggle.com/datasets/rohit265/credit-card-eligibility-data-determining-factors/data
+- Data_csv : csv file after processing in Python
+- PowerBI report
+
