@@ -27,6 +27,25 @@ The Power BI visualization provides insights into credit card eligibility based 
 - Data_csv : csv file after processing in Python
 - PowerBI report
 
+## Data Cleaning and Preprocessing
+- Loaded the dataset and checked for missing values and duplicates.
+- Renamed columns to be more descriptive.
+- Replaced numerical values with categorical labels for better interpretation.
+
+## Exploratory Data Analysis (EDA)
+- Investigated the distribution of age and income using histograms.
+- Visualized the distribution of credit card eligibility using a count plot.
+
+## Correlation Analysis
+- Calculated correlations between each feature and the target variable (Credit Card Eligibility).
+- Used Point Biserial Correlation for binary features and Pearson Correlation for numeric features.
+- Identified potential predictors of credit card eligibility.
+
+## Analysis
+The analysis involves:
+- Calculating correlations between variables and the target.
+- Visualizing distributions and interactions using Power BI.
+
 ### Important Note
 The correlation between individual variables and the target variable (Credit Card Eligibility) is generally poor, with correlation coefficients less than 0.2 for all variables. This indicates that no single variable strongly predicts credit card eligibility. Therefore, the analysis focuses on exploring potential interactions and distributions rather than relying solely on correlation.
 
@@ -55,25 +74,6 @@ Here are the correlation coefficients between each variable and the target varia
 | Type_of_housing        | 0.0175                  |
 | Occupation             | 0.0165                  |
 
-
-## Data Cleaning and Preprocessing
-- Loaded the dataset and checked for missing values and duplicates.
-- Renamed columns to be more descriptive.
-- Replaced numerical values with categorical labels for better interpretation.
-
-## Exploratory Data Analysis (EDA)
-- Investigated the distribution of age and income using histograms.
-- Visualized the distribution of credit card eligibility using a count plot.
-
-## Correlation Analysis
-- Calculated correlations between each feature and the target variable (Credit Card Eligibility).
-- Used Point Biserial Correlation for binary features and Pearson Correlation for numeric features.
-- Identified potential predictors of credit card eligibility.
-
-## Analysis
-The analysis involves:
-- Calculating correlations between variables and the target.
-- Visualizing distributions and interactions using Power BI.
 
 ## Visualization
 The Power BI dashboard provides insights into:
