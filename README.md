@@ -1,20 +1,6 @@
 # Credit Card Eligibility Analysis
 
-This repository contains code and visualizations for analyzing credit card eligibility based on past data. The analysis includes data cleaning and preparation using Python and visualization creation using Power BI.
-
-## Data Cleaning (Python)
-
-The Python script in this repository performs the following data cleaning tasks:
-
-- Handling missing values
-- Removing duplicates
-- Converting data types
-- Renaming columns
-- Replacing values
-
-### Code
-
-The Python script for data cleaning and preliminary analysis can be found in the `data_cleaning.py` file.
+This repository contains code and visualizations for analyzing credit card eligibility based on past data. The analysis includes data cleaning, preparation and and preliminary analysis using Python and visualization creation using Power BI.
 
 ## Visualization (Power BI)
 
@@ -38,8 +24,6 @@ The Power BI visualization provides insights into credit card eligibility based 
 
 ## Correlation Analysis
 - Calculated correlations between each feature and the target variable (Credit Card Eligibility).
-- Used Point Biserial Correlation for binary features and Pearson Correlation for numeric features.
-- Identified potential predictors of credit card eligibility.
 
 ## Analysis
 The analysis involves:
@@ -76,11 +60,7 @@ Here are the correlation coefficients between each variable and the target varia
 
 
 ## Visualization
-The Power BI dashboard provides insights into:
-- Demographic breakdowns.
-- Eligibility analysis by various factors.
-- Account and employment details.
-- Ownership and contact information.
+The Power BI visualization provides insights into credit card eligibility based on past data. It includes various charts and graphs to help the marketing department identify customer groups to focus on in the coming months.
 
 # Summary and Recommendations
 ## Overview
